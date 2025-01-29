@@ -1,7 +1,7 @@
 from flask import Flask,render_template,jsonify
 app=Flask(__name__)
 list_job=[{"job_post":"software engineer",
-       "company":"TechCorp",
+       "company":"Google",
        "location":"Remote"
       }, 
      {"job_post":"Graphic designer",
@@ -9,7 +9,7 @@ list_job=[{"job_post":"software engineer",
       "location":"New York"
        },
      {"job_post":"Frontend Engineer",
-      "company":"TechCorp",
+      "company":"Facebook",
       "location":"Bangalore"
        }]
 @app.route('/')
